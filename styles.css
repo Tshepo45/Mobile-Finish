@@ -2,15 +2,16 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-size: 20px;}
-  
-  body {
+  font-size: 20px;
+}
+
+body {
   font-family: 'Poppings', sans-serif;
-  min-height: 100vh;
   width: 100%;
   background-color: #f7f7f9;
   background-image: url(image/header-background-mobile\ 2.png);
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .container1 {
@@ -131,11 +132,12 @@ h1 {
   padding: 10px;
   width: 100%;
   max-width: 620px;
-  background-color: #f7f7f9;
+  background-color: #fff;
+  background-size: cover;
 }
 
 .Container2 .Snapshoot1 {
-  width: 90%;
+  width: 95%;
   padding: 10px;
   left: 16px;
   height: 320px;
@@ -151,7 +153,7 @@ h1 {
   margin: 10px;
   color: #172b4d;
   height: 36px;
-  width: 295px;
+  width: 60%;
   line-height: 44px;
 }
 
@@ -173,7 +175,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 55px;
+  width: 60%;
   color: #344563;
   text-decoration: none;
 }
@@ -192,7 +194,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 88px;
+  width: 60%;
   color: #7a869a;
   text-decoration: none;
 }
@@ -203,7 +205,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 29px;
+  width: 40%;
   top: 8px;
   text-decoration: none;
 }
@@ -244,7 +246,7 @@ h1 {
 
 .Container2 .lan1 {
   height: 26px;
-  width: 59px;
+  width: 35%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -258,7 +260,7 @@ h1 {
 
 .Container2 .lan2 {
   height: 26px;
-  width: 49px;
+  width: 28%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -272,7 +274,7 @@ h1 {
 
 .Container2 .lan3 {
   height: 26px;
-  width: 69px;
+  width: 32%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -327,11 +329,12 @@ h1 {
   padding: 10px;
   width: 100%;
   max-width: 620px;
-  background-color: #f7f7f9;
+  background-color: #fff;
+  background-size: cover;
 }
 
 .Container3 .Snapshoot1 {
-  width: 90%;
+  width: 95%;
   padding: 10px;
   left: 16px;
   height: 320px;
@@ -370,7 +373,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 55px;
+  width: 60%;
   color: #344563;
   text-decoration: none;
 }
@@ -389,7 +392,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 88px;
+  width: 60%;
   color: #7a869a;
   text-decoration: none;
 }
@@ -400,7 +403,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 29px;
+  width: 40%;
   top: 8px;
   text-decoration: none;
 }
@@ -434,7 +437,7 @@ h1 {
 
 .Container3 .lan4 {
   height: 26px;
-  width: 59px;
+  width: 35%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -448,7 +451,7 @@ h1 {
 
 .Container3 .lan5 {
   height: 26px;
-  width: 49px;
+  width: 28%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -462,7 +465,7 @@ h1 {
 
 .Container3 .lan6 {
   height: 26px;
-  width: 69px;
+  width: 32%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -517,11 +520,11 @@ h1 {
   padding: 10px;
   width: 100%;
   max-width: 620px;
-  background-color: #f7f7f9;
+  background-color: #fff;
 }
 
 .Container4 .Snapshoot1 {
-  width: 90%;
+  width: 95%;
   padding: 10px;
   left: 16px;
   height: 320px;
@@ -578,7 +581,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 88px;
+  width: 60%;
   color: #7a869a;
   text-decoration: none;
 }
@@ -589,7 +592,7 @@ h1 {
   font-size: 13px;
   line-height: 16px;
   height: 16px;
-  width: 29px;
+  width: 40%;
   top: 8px;
   text-decoration: none;
 }
@@ -623,11 +626,12 @@ h1 {
 
 .Container4 .lan7 {
   height: 26px;
-  width: 59px;
+  width: 35%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
-  line-height: 16px;font-size: 12px;
+  line-height: 16px;
+  font-size: 12px;
   color: #6070ff;
   background: #ebebff;
   border: none;
@@ -636,7 +640,7 @@ h1 {
 
 .Container4 .lan8 {
   height: 26px;
-  width: 49px;
+  width: 28%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -650,7 +654,7 @@ h1 {
 
 .Container4 .lan9 {
   height: 26px;
-  width: 69px;
+  width: 32%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -703,13 +707,13 @@ h1 {
   gap: 0.5rem;
   margin-top: 74px;
   padding: 10px;
-  width: 90%;
+  width: 100%;
   max-width: 620px;
-  background-color: #f7f7f9;
+  background-color: #fff;
 }
 
 .Container5 .Snapshoot1 {
-  width: 100%;
+  width: 95%;
   padding: 10px;
   left: 16px;
   height: 320px;
@@ -812,7 +816,7 @@ h1 {
 
 .Container5 .lan-1 {
   height: 26px;
-  width: 59px;
+  width: 35%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -826,7 +830,7 @@ h1 {
 
 .Container5 .lan-2 {
   height: 26px;
-  width: 49px;
+  width: 28%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -840,7 +844,7 @@ h1 {
 
 .Container5 .lan-3 {
   height: 26px;
-  width: 69px;
+  width: 32%;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -890,7 +894,7 @@ h1 {
 
 #AbtContainter {
   position: absolute;
-  height: 770px;
+  height: 970px;
   line-height: 10px;
   top: 3944px;
   width: 100%;
@@ -900,6 +904,8 @@ h1 {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 10px;
   align-content: center;
+  background-color: #fff;
+  background-size: cover;
 }
 
 .Top-Sec {
@@ -1007,7 +1013,7 @@ h1 {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #f7f7f9;
+  background-color: #fff;
   list-style: none;
 }
 
@@ -1041,7 +1047,7 @@ h1 {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #f7f7f9;
+  background-color: #fff;
   list-style: none;
 }
 
@@ -1075,7 +1081,7 @@ h1 {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #f7f7f9;
+  background-color: #fff;
   list-style: none;
 }
 
