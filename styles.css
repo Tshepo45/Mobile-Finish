@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Poppings', sans-serif;
-  width: 200%;
+  width: 100%;
   background-color: #f7f7f9;
   background-image: url(image/header-background-mobile\ 2.png);
   background-repeat: no-repeat;
@@ -1164,13 +1164,14 @@ ul {
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
+  font-stretch: wider;
   line-height: 52px;
   position: absolute;
-  width: 60%;
+  width: 65%;
   height: 56px;
   color: #fff;
-  top: 113px;
-  left: 62px;
+  top: 123px;
+  left: 70px;
 }
 
 .contact-sec p {
@@ -1180,11 +1181,12 @@ ul {
   font-weight: 400;
   font-style: normal;
   line-height: 28px;
+  font-stretch: wider;
   position: absolute;
   height: 10rem;
   width: 90%;
   top: 188px;
-  left: -20px;
+  left: -12px;
   color: #ebebff;
 }
 
