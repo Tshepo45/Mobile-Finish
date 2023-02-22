@@ -11,7 +11,7 @@ body {
   background-color: #f7f7f9;
   background-image: url(image/header-background-mobile\ 2.png);
   background-repeat: no-repeat;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .container1 {
@@ -27,6 +27,7 @@ body {
   max-width: 620px;
   border-radius: 8px;
   top: 10px;
+  overflow-x: hidden !important;
 }
 
 .Toolbar {
@@ -135,6 +136,7 @@ h1 {
   border-radius: 2%;
   background-color: #fff;
   background-size: cover;
+  overflow-x: hidden !important;
 }
 
 .Container2 .Snapshoot1 {
@@ -333,6 +335,7 @@ h1 {
   border-radius: 2%;
   background-color: #fff;
   background-size: cover;
+  overflow-x: hidden !important;
 }
 
 .Container3 .Snapshoot1 {
@@ -524,6 +527,7 @@ h1 {
   max-width: 620px;
   border-radius: 2%;
   background-color: #fff;
+  overflow-x: hidden !important;
 }
 
 .Container4 .Snapshoot1 {
@@ -714,6 +718,7 @@ h1 {
   max-width: 620px;
   border-radius: 2%;
   background-color: #fff;
+  overflow-x: hidden !important;
 }
 
 .Container5 .Snapshoot1 {
@@ -819,7 +824,7 @@ h1 {
 }
 
 .Container5 .lan-1 {
-  float:left;
+  float: left;
   height: 26px;
   width: 35%;
   font-family: 'Poppings', sans-serif;
@@ -833,7 +838,7 @@ h1 {
   border-radius: 8px;
 }
 
-.Container5 .lan-2 {  
+.Container5 .lan-2 {
   float: left;
   height: 26px;
   width: 28%;
@@ -913,6 +918,7 @@ h1 {
   align-content: center;
   background-color: #fff;
   background-size: cover;
+  overflow: hidden;
 }
 
 .Top-Sec {
@@ -1132,21 +1138,20 @@ h1 {
   align-items: center;
   position: relative;
   width: 100%;
-  max-width: 620px;
-  top: 252rem;
+  top: 72rem;
   height: 44rem;
   background-image: url(image/contact\ form\ shapes-mobile.png);
   background-color: #396df2;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
+  overflow-x: hidden !important;
   border-top-left-radius: 10%;
   margin: 0 auto;
   padding: 1em;
   border: 1px solid #ccc;
 }
 
-ul {
+.form ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1171,7 +1176,7 @@ ul {
   height: 56px;
   color: #fff;
   top: 123px;
-  left: 70px;
+  left: 66px;
 }
 
 .contact-sec p {
@@ -1240,7 +1245,6 @@ ul {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: black;
   padding: 10px;
   height: 140px;
   width: 90%;
@@ -1282,12 +1286,14 @@ ul {
 
 .btn:hover {
   text-decoration-line: underline;
-  background-color: #789bf2;
+  background-color: #6070ff;
 }
 
 .btn:active {
   opacity: 1;
+  color: #5E6C84;
+}
+
+.btn:focus {
   color: #fff;
-  background-color: #789bf2;
-  border: 1px solid #6070ff;
 }
