@@ -819,7 +819,7 @@ h1 {
 }
 
 .Container5 .lan-1 {
-  float:left;
+  float: left;
   height: 26px;
   width: 35%;
   font-family: 'Poppings', sans-serif;
@@ -833,7 +833,7 @@ h1 {
   border-radius: 8px;
 }
 
-.Container5 .lan-2 {  
+.Container5 .lan-2 {
   float: left;
   height: 26px;
   width: 28%;
@@ -1146,7 +1146,7 @@ h1 {
   border: 1px solid #ccc;
 }
 
-ul {
+.form ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1240,7 +1240,6 @@ ul {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: black;
   padding: 10px;
   height: 140px;
   width: 90%;
