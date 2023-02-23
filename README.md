@@ -23,14 +23,14 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖<a name="Portfolio Mobile Finish"></a>
-Mobile Finish project that use different elements like Html,Css,Git and Github without additional coding.
+# 📖<a name="Portfolio Mobile First"></a>
+Portfolio-Mobile-Finish project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.
 
 ## 🛠 Built With 
 Html Css 
 
 ## key-features
-Allow dragging and dropping elements and get them automatically optimized for small screen without coding.
+Contact form that guide users experience in a way that helps them fill in the form without frustration 
 
 
 ## 💻 Getting Started 
@@ -61,7 +61,7 @@ git clone https://github.com/Tshepo45/Mobile-Finish.git
 - LinkedIn: [tshepo45](https://linkedin.com/in/linkedinhandle)
 
 ## future-features
-The template to include mobile finish portfolio that includes a form and customizable button and icons.
+The template to include feedback forms and customizable button and icons with the implementation and functionality of JavaScript.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -71,6 +71,8 @@ The template to include mobile finish portfolio that includes a form and customi
 Contributions, issues, and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## ⭐️ Show your support <a name="support"></a>
 
