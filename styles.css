@@ -1137,7 +1137,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 100%;
+  width: 375px;
   top: 72rem;
   height: 44rem;
   background-image: url(image/contact\ form\ shapes-mobile.png);
@@ -1146,7 +1146,7 @@ h1 {
   background-size: cover;
   overflow-x: hidden !important;
   border-top-left-radius: 10%;
-  margin: 0 auto;
+  margin: 0;
   padding: 1em;
   border: 1px solid #ccc;
 }
