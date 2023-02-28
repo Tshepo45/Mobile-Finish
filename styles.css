@@ -12,7 +12,7 @@ html {
 }
 
 body {
-   background-color: #f7f7f9;
+  background-color: #f7f7f9;
   width: 100%;
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -38,7 +38,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 nav {
@@ -168,62 +168,64 @@ ul > li {
   padding: 8rem 1.6rem;
   row-gap: 1em;
   justify-content: center;
+  overflow-x: hidden !important;
 }
 
 .project1 {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 60%;
+  width: 90%;
   border: 1px solid #dfe1e6;
   padding-left: 16px;
   border-radius: 20px;
   background-color: #fff;
-  margin-left: 103px;
+  margin-left: 8px;
   margin-top: 10px;
+  overflow-x: hidden !important;
 }
 
 .project2 {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 60%;
+  width: 90%;
   margin-top: 90px;
-  margin-left: 103px;
+  margin-left: 8px;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .project3 {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 60%;
-  margin-left: 103px;
+  width: 90%;
+  margin-left: 8px;
   margin-top: 70px;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .project4 {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 60%;
-  margin-left: 103px;
+  width: 90%;
+  margin-left: 8px;
   margin-bottom: 123px;
   margin-top: 50px;
   padding: 16px;
   border: 1px solid #dfe1e6;
   border-radius: 20px;
   background-color: #fff;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .pager-head {
@@ -316,11 +318,12 @@ ul > li {
 .about {
   display: flex;
   flex-direction: column;
+  width: 90%;
   row-gap: 3em;
   padding: 100px 24px;
   background-color: #fff;
   border-top-right-radius: 5em;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
 }
 
 .about h2 {
@@ -343,7 +346,7 @@ ul > li {
   font-weight: 400;
   line-height: 24px;
   padding-bottom: 15px;
-  width: 70%;
+  width: 90%;
   color: #344563;
 }
 
@@ -358,6 +361,7 @@ ul > li {
   color: #344563;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  width: 90%;
   line-height: 24px;
   font-weight: 500;
 }
@@ -415,11 +419,11 @@ ul > li {
 }
 
 .frameworks > .user-tool-d > img {
-  padding-left: 269px;
+  padding-left: 129px;
 }
 
 .skills > .user-tool-d > img {
-  padding-left: 344px;
+  padding-left: 211px;
 }
 
 hr {
@@ -451,25 +455,27 @@ hr {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  width: 70%;
+  width: 80%;
   line-height: 28px;
   letter-spacing: 0;
   text-align: center;
   color: #ebebff;
-  overflow: hidden !important;
+  
 }
 
 .contact-form-holder {
   background-image: url(image/contact\ form\ background\ shapes@2x.png);
   background-color: #6070ff;
   background-repeat: no-repeat;
-  background-size: 459px;
-  background-position: 33px 82px;
+  background-size: 100%;
+  background-position-y: 95px;
+  padding-right: 26px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-top-left-radius: 5em;
+  overflow-x: hidden !important;
 }
 
 .responsive-form {
@@ -489,7 +495,7 @@ hr {
 #email_form {
   padding: 15px 15px 15px;
   border-radius: 8px;
-  margin-bottom: 8px;
+  margin-bottom: -13px;
   width: 100%;
   border: none;
   color: #172b4d;
@@ -514,8 +520,8 @@ hr {
   padding-top: 0%;
   padding-left: 10px;
   left: 44px;
-  width: 110px;
-  height: 24px;
+  width: 120px;
+  height: 44px;
   transition: 0.7s;
   color: #6070ff;
   border: 1px solid #6070ff;
