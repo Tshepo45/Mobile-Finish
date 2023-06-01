@@ -9,31 +9,28 @@ body {
   font-family: 'Poppings', sans-serif;
   width: 100%;
   background-color: #f7f7f9;
-  background-image: url(image/header-background-mobile\ 2.png);
-  background-repeat: no-repeat;
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 .container1 {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: url(image/header-shapes-mobile.png);
+  background-color: white; 
   background-repeat: no-repeat;
-  background-size: 375px;
-  background-position: 2px;
-  position: absolute;
-  height: 670px;
+  background-size: 100%;
+  background-position-y: 66px;
+  border-bottom-left-radius: 15%;
   width: 100%;
-  max-width: 620px;
-  border-radius: 8px;
-  top: 10px;
-  overflow-x: hidden !important;
+  height: 670px;
+  overflow-x: hidden;
 }
 
+
 .Toolbar {
-  align-items: center;
-  padding: 15px;
-}
+  width: 100%;
+ }
 
 nav ul {
   display: flex;
@@ -41,35 +38,20 @@ nav ul {
   font-size: 18px;
   margin: 0%;
   padding: 1rem;
-  width: 60%;
+  margin-left: 0.9rem;
 }
 
 nav li {
   list-style: none;
+  width: auto;
 }
+
 
 nav a {
   text-decoration: none;
   color: #6070ff;
   font-weight: 700;
-  padding-right: 226px;
-}
-
-.Social a {
-  text-decoration: none;
-  color: #6070ff;
-  font-weight: 700;
-}
-
-.Social1 a {
-  text-decoration: none;
-  color: #6070ff;
-  font-weight: 700;
-}
-
-nav a :hover,
-nav a:focus {
-  background-color: blue;
+  padding-right: 10rem;
 }
 
 h1 {
@@ -81,6 +63,7 @@ h1 {
   color: #172b4d;
   font-size: 40px;
   width: 88%;
+  margin-right: 0.5rem;
 }
 
 .P-Text {
@@ -90,6 +73,8 @@ h1 {
   width: 90%;
   margin: 0%;
   padding: 10px;
+  margin-left: 0.5rem;
+  margin-top:  0.5rem;
 }
 
 .P-Text p {
@@ -126,10 +111,21 @@ h1 {
   padding: 10px;
 }
 
+.Social a {
+  text-decoration: none;
+  color: #6070ff;
+  font-weight: 700;
+}
+
+.Social a :hover,
+.Social a:focus {
+  background-color: blue;
+}
+
 .Container2 {
   display: grid;
   gap: 0.5rem;
-  margin-top: 774px;
+  margin-top: 54px;
   padding: 10px;
   width: 100%;
   max-width: 620px;
@@ -907,8 +903,8 @@ h1 {
 #AbtContainter {
   position: absolute;
   height: 970px;
-  line-height: 10px;
-  top: 3944px;
+  margin-top: 54px;
+  line-height: 10px;  
   width: 100%;
   max-width: 620px;
   border-top-right-radius: 20%;
@@ -935,19 +931,20 @@ h1 {
   font-style: normal;
   line-height: 52px;
   font-size: 40px;
-  width: 50%;
-  color: #172b4d;
+  width: 100%;
+  color:rgba(23,43 , 77, 1); 
   padding: 10px;
+ 
 }
 
 .Text {
-  width: 160%;
+  width: 100%;
   font-family: 'Poppings', sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 24px;
   font-size: 16px;
-  color: #344563;
+  color: rgba(52,69 , 99, 1);
   padding: 10px;
 }
 
@@ -957,7 +954,7 @@ h1 {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
-  color: #7f8cff;
+  color: rgba(127,140 , 255, 1);
   width: 100%;
   padding: 10px;
   text-decoration: none;
@@ -994,7 +991,7 @@ h1 {
   border-radius: 8px;
   padding: 20px;
   background: #fff;
-  color: #396df2;
+  color: rgba(57,109 , 242, 1);
 }
 
 .btn6:hover {
@@ -1026,8 +1023,9 @@ h1 {
   left: 12px;
   top: 12px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: rgba(247,247 , 249, 1);
   list-style: none;
+
 }
 
 .Java {
@@ -1058,9 +1056,9 @@ h1 {
   height: 66px;
   width: 303px;
   left: 12px;
-  top: 12px;
+  margin-top: 16px; 
   border-radius: 8px;
-  background-color: #fff;
+  background-color: rgba(247,247 , 249, 1);
   list-style: none;
 }
 
@@ -1092,9 +1090,9 @@ h1 {
   height: 66px;
   width: 303px;
   left: 12px;
-  top: 12px;
+  margin-top: 16px;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: rgba(247,247 , 249, 1);
   list-style: none;
 }
 
@@ -1130,170 +1128,4 @@ h1 {
   justify-content: space-between;
   padding: 50px 10px;
   list-style: none;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  width: 100%;
-  top: 72rem;
-  height: 44rem;
-  background-image: url(image/contact\ form\ shapes-mobile.png);
-  background-color: #396df2;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow-x: hidden !important;
-  border-top-left-radius: 10%;
-  margin: 0 auto;
-  padding: 1em;
-  border: 1px solid #ccc;
-}
-
-.form ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.form ul li {
-  margin-top: 1em;
-}
-
-.contact-sec h2 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-size: 40px;
-  font-weight: 700;
-  font-stretch: wider;
-  line-height: 52px;
-  position: absolute;
-  width: 65%;
-  height: 56px;
-  color: #fff;
-  top: 123px;
-  left: 66px;
-}
-
-.contact-sec p {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 28px;
-  font-stretch: wider;
-  position: absolute;
-  height: 10rem;
-  width: 90%;
-  top: 188px;
-  left: -12px;
-  color: #ebebff;
-}
-
-.name,
-.email,
-.msg {
-  position: absolute;
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  background: #fff;
-}
-
-#name {
-  display: flex;
-  align-items: center;
-  font-family: 'Poppins', sans-serif;
-  position: absolute;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  padding: 10px;
-  right: 38px;
-  color: #172b4d;
-  height: 48px;
-  width: 90%;
-  left: 15px;
-  top: 362px;
-}
-
-#email {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  padding: 10px;
-  height: 48px;
-  width: 90%;
-  left: 15px;
-  top: 422px;
-  color: #172b4d;
-}
-
-#msg {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  padding: 10px;
-  height: 140px;
-  width: 90%;
-  left: 15px;
-  top: 486px;
-  color: #b3bac5;
-}
-
-.btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 12px 16px;
-  position: absolute;
-  width: 212px;
-  height: 48px;
-  left: 10px;
-  border-radius: 8px;
-  border: 1px solid #cfd8dc;
-  background-color: #fff;
-  top: 640px;
-  margin-left: 5px;
-  cursor: pointer;
-  color: #6070ff;
-}
-
-#btn-1 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #6070ff;
-}
-
-.btn:hover {
-  background-color: #6070ff;
-  color: white;
-}
-
-.btn:active {
-  background-color: #2230d2;
-  color: white;
-}
-
-.btn:focus {
-  color: #fff;
 }
