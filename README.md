@@ -24,7 +24,12 @@
 - [📝 License](#license)
 
 # 📖<a name="Portfolio Mobile Finish"></a>
-Portfolio-Mobile-Finish project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.
+
+## Prjoect Title
+ Portfolio Mobile Finish
+
+## Project Description
+ Portfolio-Mobile-Finish project that include a contact form and it uses different tools such Html,Css,Git and Github without additional coding.
 
 ## 🛠 Built With 
 Html Css 
@@ -59,6 +64,12 @@ git clone https://github.com/Tshepo45/Mobile-Finish.git
 - GitHub: [@tshepo45](https://github.com/githubhandle)
 - Twitter: [@tshepo45](https://twitter.com/twitterhandle)
 - LinkedIn: [tshepo45](https://linkedin.com/in/linkedinhandle)
+
+**Author2**
+- GitHub: [@Innocent259](https://github.com/githubhandle)
+- Twitter: [@Innocent259](https://twitter.com/twitterhandle)
+- LinkedIn: [@Innocent259](https://www.linkedin.com/in/innocent-ndahimana)
+
 
 ## future-features
 The template to include feedback forms and customizable button and icons with the implementation and functionality of JavaScript.

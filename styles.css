@@ -1,13 +1,17 @@
 * {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
 body {
-  font-family: 'Poppings', sans-serif;
-  width: 100%;
   background-color: #f7f7f9;
   overflow-x: hidden;
 }
@@ -41,7 +45,17 @@ nav ul {
   margin-left: 0.9rem;
 }
 
-nav li {
+nav .img {
+  padding-left: 210px;
+}
+
+.home-icons {
+  display: none;
+  width: 100%;
+}
+
+.home-icons ul {
+  display: flex;
   list-style: none;
   width: auto;
 }
@@ -57,7 +71,20 @@ nav a {
 h1 {
   padding-top: 65px;
   font-family: 'Poppings', sans-serif;
-  font-style: normal;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #344563;
+  transition: 0.4s;
+}
+
+header {
+  background: white;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
@@ -78,32 +105,33 @@ h1 {
 }
 
 .P-Text p {
-  font-family: 'Poppings', sans-serif;
-  font-weight: 400;
-  line-height: 24px;
-  font-size: 16px;
-  width: 90%;
-  color: #344563;
-  padding-top: 20px;
-}
-
-.Connect {
-  font-family: 'Poppings', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #7f8cff;
-  width: 90%;
-  padding-top: 20px;
-  text-decoration: none;
+  color: #344563;
+  padding-top: 10px;
+  width: 100%;
 }
 
-.Social {
+.social-media,
+.connect:visited,
+.connect:hover,
+.connect:active {
+  color: #7f8cff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.social-icons {
+  margin: 20px 0 15px -5px;
   display: flex;
-  align-items: flex-start;
-  width: 95%;
-  padding-top: 5px;
+  justify-content: flex-start;
+  align-items: center;
   list-style: none;
 }
 
