@@ -1,17 +1,13 @@
 * {
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  text-decoration: none;
-  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 20px;
 }
 
 body {
+  font-family: 'Poppings', sans-serif;
+  width: 100%;
   background-color: #f7f7f9;
   overflow-x: hidden;
 }
@@ -45,17 +41,7 @@ nav ul {
   margin-left: 0.9rem;
 }
 
-nav .img {
-  padding-left: 210px;
-}
-
-.home-icons {
-  display: none;
-  width: 100%;
-}
-
-.home-icons ul {
-  display: flex;
+nav li {
   list-style: none;
   width: auto;
 }
@@ -71,20 +57,7 @@ nav a {
 h1 {
   padding-top: 65px;
   font-family: 'Poppings', sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  color: #344563;
-  transition: 0.4s;
-}
-
-header {
-  background: white;
-  position: fixed;
-  z-index: 10;
-}
-
-.logo {
+  font-style: normal;
   font-weight: 700;
   line-height: 52px;
   color: #172b4d;
@@ -105,33 +78,32 @@ header {
 }
 
 .P-Text p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppings', sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  width: 90%;
+  color: #344563;
+  padding-top: 20px;
+}
+
+.Connect {
+  font-family: 'Poppings', sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #344563;
-  padding-top: 10px;
-  width: 100%;
-}
-
-.social-media,
-.connect:visited,
-.connect:hover,
-.connect:active {
   color: #7f8cff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  width: 90%;
   padding-top: 20px;
+  text-decoration: none;
 }
 
-.social-icons {
-  margin: 20px 0 15px -5px;
+.Social {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
+  width: 95%;
+  padding-top: 5px;
   list-style: none;
 }
 
@@ -150,6 +122,9 @@ header {
   background-color: blue;
 }
 
+
+
+
 .Container2 {
   display: grid;
   gap: 0.5rem;
@@ -163,7 +138,7 @@ header {
   overflow-x: hidden !important;
 }
 
-.Container2 .Snapshoot1 {
+.Snapshoot2 {
   width: 95%;
   padding: 10px;
   left: 16px;
@@ -184,7 +159,7 @@ header {
   line-height: 44px;
 }
 
-.Container2 .Sub-Topic {
+.Sub-Topic2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -243,7 +218,7 @@ header {
   text-decoration-line: underline;
 }
 
-.Container2 .Main-Text {
+.Main-Text2 {
   height: 76px;
   width: 80%;
   padding: 10px;
@@ -255,14 +230,8 @@ header {
   color: #344563;
 }
 
-.Languages2 {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 10px;
-  list-style: none;
-}
 
-.Container2 .Languages2 {
+ .Languages2 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -271,7 +240,7 @@ header {
   padding: 10px;
 }
 
-.Container2 .lan1 {
+.Container2 .lan21 {
   height: 26px;
   width: 35%;
   font-family: 'Poppings', sans-serif;
@@ -285,7 +254,7 @@ header {
   border-radius: 8px;
 }
 
-.Container2 .lan2 {
+.Container2 .lan22 {
   height: 26px;
   width: 28%;
   font-family: 'Poppings', sans-serif;
@@ -299,7 +268,7 @@ header {
   border-radius: 8px;
 }
 
-.Container2 .lan3 {
+.Container2 .lan23 {
   height: 26px;
   width: 32%;
   font-family: 'Poppings', sans-serif;
@@ -554,7 +523,7 @@ header {
   overflow-x: hidden !important;
 }
 
-.Container4 .Snapshoot1 {
+.Snapshoot4 {
   width: 95%;
   padding: 10px;
   left: 16px;
@@ -563,7 +532,7 @@ header {
   border-radius: 8px;
 }
 
-.Container4 .Tonic4 {
+.Tonic4 {
   font-weight: 700;
   font-style: normal;
   font-family: "Poppins", sans-serif;
@@ -575,7 +544,7 @@ header {
   line-height: 44px;
 }
 
-.Container4 .Sub-Topic {
+.Sub-Topic4 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -634,7 +603,7 @@ header {
   text-decoration-line: underline;
 }
 
-.Container4 .Main-Text {
+.Main-Text4 {
   height: 76px;
   width: 80%;
   padding: 10px;
@@ -646,7 +615,7 @@ header {
   color: #344563;
 }
 
-.Container4 .Languages4 {
+.Languages4 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -655,7 +624,7 @@ header {
   padding: 10px;
 }
 
-.Container4 .lan7 {
+.lan41 {
   height: 26px;
   width: 35%;
   font-family: 'Poppings', sans-serif;
@@ -669,7 +638,7 @@ header {
   border-radius: 8px;
 }
 
-.Container4 .lan8 {
+.lan42 {
   height: 26px;
   width: 28%;
   font-family: 'Poppings', sans-serif;
@@ -683,7 +652,7 @@ header {
   border-radius: 8px;
 }
 
-.Container4 .lan9 {
+.lan43 {
   height: 26px;
   width: 32%;
   font-family: 'Poppings', sans-serif;
@@ -697,9 +666,9 @@ header {
   border-radius: 8px;
 }
 
-.lan7:hover,
-.lan8:hover,
-.lan9:hover {
+.lan41:hover,
+.lan42:hover,
+.lan43:hover {
   text-decoration-line: underline;
 }
 
@@ -745,7 +714,7 @@ header {
   overflow-x: hidden !important;
 }
 
-.Container5 .Snapshoot1 {
+.Snapshoot {
   width: 95%;
   padding: 10px;
   left: 16px;
@@ -754,7 +723,7 @@ header {
   border-radius: 8px;
 }
 
-.Container5 .Tonic5 {
+.Tonic5 {
   font-weight: 700;
   font-style: normal;
   font-family: "Poppins", sans-serif;
@@ -767,7 +736,7 @@ header {
   padding-bottom: 62px;
 }
 
-.Container5 .Sub-Topic {
+.Sub-Topic5 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -826,7 +795,7 @@ header {
   text-decoration-line: underline;
 }
 
-.Container5 .Main-Text {
+.Main-Text5 {
   height: 76px;
   width: 80%;
   padding: 10px;
@@ -838,7 +807,7 @@ header {
   color: #344563;
 }
 
-.Container5 .Languages5 {
+.Languages5 {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -847,7 +816,7 @@ header {
   padding: 10px;
 }
 
-.Container5 .lan-1 {
+.lan51 {
   float: left;
   height: 26px;
   width: 35%;
@@ -862,7 +831,7 @@ header {
   border-radius: 8px;
 }
 
-.Container5 .lan-2 {
+.lan52 {
   float: left;
   height: 26px;
   width: 28%;
@@ -877,7 +846,7 @@ header {
   border-radius: 8px;
 }
 
-.Container5 .lan-3 {
+.lan53 {
   float: right;
   height: 26px;
   width: 32%;
@@ -892,9 +861,9 @@ header {
   border-radius: 8px;
 }
 
-.lan-1:hover,
-.lan-2:hover,
-.lan-3:hover {
+.lan51:hover,
+.lan52:hover,
+.lan53:hover {
   text-decoration-line: underline;
 }
 
@@ -1039,6 +1008,7 @@ header {
   line-height: 24px;
   font-size: 17px;
   color: #000;
+  list-style: none;
 }
 
 .Icon-Lan {
