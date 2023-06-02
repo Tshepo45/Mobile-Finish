@@ -33,7 +33,7 @@
 Html Css git and github
 
 ## key-features
-Contact form that guide users experience in a way that helps them fill in the form without frustration 
+ Illustration of Grid and flexbox application.
 
 
 ## 💻 Getting Started 
