@@ -404,6 +404,7 @@ h1 {
   width: 40%;
   top: 8px;
   text-decoration: none;
+  color: rgba(122,134, 154, 1);
 }
 
 .A:hover,
@@ -1001,14 +1002,18 @@ h1 {
   height: 24px;
   width: 237px;
   left: 12px;
-  top: 24px;
+  margin-top: 26px;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
-  font-size: 17px;
-  color: #000;
+  font-size: 20px;
+  color: rgba(0,0 , 0, 1);
   list-style: none;
+}
+
+.dropdown {
+  margin-top: 26px;
 }
 
 .Icon-Lan {
@@ -1016,14 +1021,12 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  height: 66px;
+  margin-top: 35px;
   width: 303px;
   left: 12px;
-  top: 12px;
   border-radius: 8px;
   background-color: rgba(247,247 , 249, 1);
   list-style: none;
-
 }
 
 .Java {
@@ -1117,8 +1120,16 @@ h1 {
 .Frame-Skill {
   display: flex;
   justify-content: space-between;
-  padding: 50px 10px;
+  padding: 20px 5px;
   list-style: none;
+}
+
+.IconDown1{
+  margin-right: 52px;
+}
+
+.IconDown2{
+  margin-right: 52px;
 }
 
 .Skill {
@@ -1126,4 +1137,5 @@ h1 {
   justify-content: space-between;
   padding: 50px 10px;
   list-style: none;
+  margin-top: -19px;
 }
