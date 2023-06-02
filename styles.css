@@ -314,7 +314,9 @@ h1 {
   color: #396df2;
 }
 
-.btn2:hover {
+.btn2:hover,
+.btn2:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -508,7 +510,9 @@ h1 {
   color: #396df2;
 }
 
-.btn3:hover {
+.btn3:hover,
+.btn3:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -699,7 +703,10 @@ h1 {
   color: #396df2;
 }
 
-.btn4:hover {
+
+.btn4:hover,
+.btn4:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -894,7 +901,9 @@ h1 {
   color: #396df2;
 }
 
-.btn5:hover {
+.btn5:hover,
+.btn5:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -992,9 +1001,11 @@ h1 {
   color: rgba(57,109 , 242, 1);
 }
 
-.btn6:hover {
+.btn6:hover,
+.btn6:focus{
   text-decoration-line: underline;
-}
+  background-color:rgba(57,109 , 242, 1);
+ }
 
 .lang {
   display: flex;
