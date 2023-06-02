@@ -33,11 +33,9 @@
 Html, Css and git. 
 
 ## key-features
-Illustration of Grid and flexbox application.
-
+ Illustration of Grid and flexbox application.
 
 ## 💻 Getting Started 
-
 Setup project to your local environment and clone it as follows git clone
 https://github.com/Tshepo45/Mobile-Finish.git
 
