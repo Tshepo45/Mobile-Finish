@@ -122,9 +122,6 @@ h1 {
   background-color: blue;
 }
 
-
-
-
 .Container2 {
   display: grid;
   gap: 0.5rem;
@@ -136,6 +133,15 @@ h1 {
   background-color: #fff;
   background-size: cover;
   overflow-x: hidden !important;
+}
+
+.Tonic2{
+  font-family: 'Poppings', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 32px;
+  line-height: 44px; 
+  color: rgba(23,43 , 77, 1);
 }
 
 .Snapshoot2 {
@@ -342,13 +348,13 @@ h1 {
   border-radius: 8px;
 }
 
-.Container3 .Tonic {
+.Tonic3 {
   font-weight: 700;
   font-style: normal;
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   margin: 10px;
-  color: #172b4d;
+  color: rgba(23,43 , 77, 1);
   height: 36px;
   width: 295px;
   line-height: 44px;
@@ -543,7 +549,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   margin: 10px;
-  color: #172b4d;
+  color: rgba(23,43 , 77, 1);
   height: 36px;
   width: 295px;
   line-height: 44px;
@@ -737,7 +743,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   margin: 10px;
-  color: #172b4d;
+  color: rgba(23,43 , 77, 1);
   height: 36px;
   width: 295px;
   line-height: 44px;
