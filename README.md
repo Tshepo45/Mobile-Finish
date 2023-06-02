@@ -23,17 +23,17 @@
 
 # 📖<a name="Portfolio Mobile Finish">Portfolio Mobile Finish</a>
 
-## Prjoect Title
- Portfolio Mobile Finish
+## Project Title
+ Mobile Finish
 
 ## Project Description
  Portfolio-Mobile-Finish project that uses different tools such Html,Css,Git and Github without additional coding.
 
 ## 🛠 Built With 
-Html Css git and github
+Html, Css and git. 
 
 ## key-features
-Contact form that guide users experience in a way that helps them fill in the form without frustration 
+Illustration of Grid and flexbox application.
 
 
 ## 💻 Getting Started 
