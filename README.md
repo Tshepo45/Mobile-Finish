@@ -23,21 +23,19 @@
 
 # 📖<a name="Portfolio Mobile Finish">Portfolio Mobile Finish</a>
 
-## Prjoect Title
- Portfolio Mobile Finish
+## Project Title
+ Mobile Finish
 
 ## Project Description
  Portfolio-Mobile-Finish project that uses different tools such Html,Css,Git and Github without additional coding.
 
 ## 🛠 Built With 
-Html Css git and github
+Html, Css and git. 
 
 ## key-features
  Illustration of Grid and flexbox application.
 
-
 ## 💻 Getting Started 
-
 Setup project to your local environment and clone it as follows git clone
 https://github.com/Tshepo45/Mobile-Finish.git
 

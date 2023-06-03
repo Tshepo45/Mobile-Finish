@@ -122,9 +122,6 @@ h1 {
   background-color: blue;
 }
 
-
-
-
 .Container2 {
   display: grid;
   gap: 0.5rem;
@@ -136,6 +133,15 @@ h1 {
   background-color: #fff;
   background-size: cover;
   overflow-x: hidden !important;
+}
+
+.Tonic2{
+  font-family: 'Poppings', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 32px;
+  line-height: 44px; 
+  color: rgba(23,43 , 77, 1);
 }
 
 .Snapshoot2 {
@@ -314,7 +320,9 @@ h1 {
   color: #396df2;
 }
 
-.btn2:hover {
+.btn2:hover,
+.btn2:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -340,13 +348,13 @@ h1 {
   border-radius: 8px;
 }
 
-.Container3 .Tonic {
+.Tonic3 {
   font-weight: 700;
   font-style: normal;
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   margin: 10px;
-  color: #172b4d;
+  color: rgba(23,43 , 77, 1);
   height: 36px;
   width: 295px;
   line-height: 44px;
@@ -404,6 +412,7 @@ h1 {
   width: 40%;
   top: 8px;
   text-decoration: none;
+  color: rgba(122,134, 154, 1);
 }
 
 .A:hover,
@@ -507,7 +516,9 @@ h1 {
   color: #396df2;
 }
 
-.btn3:hover {
+.btn3:hover,
+.btn3:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -538,7 +549,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   margin: 10px;
-  color: #172b4d;
+  color: rgba(23,43 , 77, 1);
   height: 36px;
   width: 295px;
   line-height: 44px;
@@ -698,7 +709,10 @@ h1 {
   color: #396df2;
 }
 
-.btn4:hover {
+
+.btn4:hover,
+.btn4:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -729,7 +743,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 32px;
   margin: 10px;
-  color: #172b4d;
+  color: rgba(23,43 , 77, 1);
   height: 36px;
   width: 295px;
   line-height: 44px;
@@ -893,7 +907,9 @@ h1 {
   color: #396df2;
 }
 
-.btn5:hover {
+.btn5:hover,
+.btn5:focus {
+  background-color:rgba(57,109 , 242, 1);
   text-decoration-line: underline;
 }
 
@@ -991,9 +1007,11 @@ h1 {
   color: rgba(57,109 , 242, 1);
 }
 
-.btn6:hover {
+.btn6:hover,
+.btn6:focus{
   text-decoration-line: underline;
-}
+  background-color:rgba(57,109 , 242, 1);
+ }
 
 .lang {
   display: flex;
@@ -1001,14 +1019,18 @@ h1 {
   height: 24px;
   width: 237px;
   left: 12px;
-  top: 24px;
+  margin-top: 26px;
   font-family: 'Poppings', sans-serif;
   font-weight: 500;
   font-style: normal;
   line-height: 24px;
-  font-size: 17px;
-  color: #000;
+  font-size: 20px;
+  color: rgba(0,0 , 0, 1);
   list-style: none;
+}
+
+.dropdown {
+  margin-top: 26px;
 }
 
 .Icon-Lan {
@@ -1016,14 +1038,12 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  height: 66px;
+  margin-top: 35px;
   width: 303px;
   left: 12px;
-  top: 12px;
   border-radius: 8px;
   background-color: rgba(247,247 , 249, 1);
   list-style: none;
-
 }
 
 .Java {
@@ -1117,8 +1137,16 @@ h1 {
 .Frame-Skill {
   display: flex;
   justify-content: space-between;
-  padding: 50px 10px;
+  padding: 20px 5px;
   list-style: none;
+}
+
+.IconDown1{
+  margin-right: 52px;
+}
+
+.IconDown2{
+  margin-right: 52px;
 }
 
 .Skill {
@@ -1126,4 +1154,5 @@ h1 {
   justify-content: space-between;
   padding: 50px 10px;
   list-style: none;
+  margin-top: -19px;
 }
