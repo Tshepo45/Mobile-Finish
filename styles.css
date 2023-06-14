@@ -26,7 +26,9 @@ body {
   height: 670px;
   overflow-x: hidden;
 }
-
+.my_logo{
+   transform: rotate(90deg);
+}
 
 .Toolbar {
   width: 100%;
@@ -541,6 +543,7 @@ h1 {
   height: 320px;
   top: 16px;
   border-radius: 8px;
+  transform: scale(0.7);
 }
 
 .Tonic4 {
@@ -1203,6 +1206,7 @@ h1 {
   color: #fff;
   top: 123px;
   left: 66px;
+   transform: translate(42px, 18px);
 }
 
 .contact-sec p {
